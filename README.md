@@ -4,7 +4,7 @@
 
 ### Create an endpoint in a Sagemaker notebook [like so](https://github.com/s-cafferty-nlp/nlp_endpoint_backend/blob/main/sagemaker_deploy_endpoint.ipynb).
 
-### Do NOT forget to .delete_endpoint(), or AWS will charge you a bunch of money.
+### Do NOT forget to .delete_endpoint() when done experimenting, or AWS will charge you a bunch of money.
 
 ## 2. Create a Lambda Function that Interacts with Sagemaker Endpoint
 
